@@ -1,0 +1,42 @@
+.nav {
+	display: grid;
+	grid-template-columns: repeat(6, 2fr);
+	gap: 20px;
+	align-items: center;
+    margin-bottom: 86px;
+
+	&__list {
+		grid-column: span 4;
+		display: flex;
+		justify-content: center;
+		gap: 65px;
+
+		&-item {
+			
+			font-size: 18px;
+			font-weight: 400;
+			text-align: center;
+		}
+	}
+
+	&__cart {
+		display: flex;
+		justify-content: flex-end;
+        position: relative;
+
+        &-count {
+            position: absolute;
+            top: 3px;
+            right: -6px;
+            display: inline-block;
+            height: 25px;
+            padding: 0 6px;
+
+            background-color: var(--accent);
+            border-radius: 40px;
+            
+            line-height: 25px;
+            
+        }
+	}
+}

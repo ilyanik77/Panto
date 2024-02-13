@@ -1,0 +1,113 @@
+.header {
+
+    position: relative;
+    
+	padding-top: 40px;
+	background-color: var(--footer-bg);
+	background-image: url('./../img/header-bg.jpeg');
+	background-size: cover;
+	aspect-ratio: 1441 / 1084;
+
+	color: var(--header-text-color);
+
+	@include retina-bg(url('./../img/header-bg@2x.jpeg'));
+
+	a {
+		color: var(--header-text-color);
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		&-title {
+			font-size: 80px;
+			font-weight: 400;
+			line-height: 130%;
+			text-align: center;
+			text-transform: capitalize;
+			margin-bottom: 14px;
+		}
+
+		&-text {
+			font-size: 24px;
+			font-weight: 400;
+			line-height: 160%;
+			text-align: center;
+			max-width: 606px;
+			margin-bottom: 45px;
+            opacity: 0.8;
+		}
+
+		&__form {
+			width: 344px;
+			height: 56px;
+
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			padding: 8px 8px 8px 20px;
+
+			box-sizing: border-box;
+			border: 0.86px solid rgba(255, 255, 255, 0.6);
+			border-radius: 42px;
+
+			backdrop-filter: blur(8px);
+			background: rgba(255, 255, 255, 0.15);
+
+			&-search {
+				
+				font-size: 18px;
+				font-weight: 500;
+				line-height: 150%;
+
+                &::placeholder {
+                    color: rgb(255, 255, 255);
+                }
+				
+			}
+
+			&-btn {
+                width: 40px;
+                height: 40px;
+                border-radius: 24px;
+                background-color: var(--accent);
+			}
+		}
+	}
+
+    &__dot-sofa {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 112px;
+        height: 137px;
+        left: calc(250 * 100% /1440);
+        top: calc(575 * 100% /1084);
+    }
+
+    &__dot-vase {
+        position: absolute;
+        left: calc(114 * 100% /1440);
+        top: calc(743 * 100% /1084);
+    }
+
+    &__dot-item {
+        position: absolute;
+        left: calc(800 * 100% /1440);
+        top: calc(777 * 100% /1084);
+    }
+
+    &__dot-wall {
+        position: absolute;
+        right: calc(40 * 100% /1440);
+        top: calc(815 * 100% /1084);
+    }
+
+
+}

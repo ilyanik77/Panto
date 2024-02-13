@@ -1,0 +1,15 @@
+<svg width="18.000000" height="18.000000" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip324_13">
+			<rect id="eva:arrow-ios-back-outline" width="18.000000" height="18.000000" transform="matrix(1.83697e-16 -1 -1 -1.83697e-16 18 18)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="eva:arrow-ios-back-outline" width="18.000000" height="18.000000" transform="matrix(1.83697e-16 -1 -1 -1.83697e-16 18 18)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip324_13)">
+		<path id="Vector" d="M4.00005 7.49561C3.99968 7.62354 4.02324 7.75024 4.06897 7.86597C4.1147 7.98169 4.18144 8.0835 4.26431 8.16431L8.54962 12.3049C8.67741 12.4312 8.83772 12.5 9.00314 12.5C9.16858 12.5 9.32887 12.4312 9.45668 12.3049L13.742 8.01855C13.8878 7.87305 13.9796 7.66382 13.997 7.43726C14.0144 7.21045 13.9561 6.98486 13.8348 6.80981C13.7136 6.63452 13.5394 6.52441 13.3505 6.50366C13.1617 6.48267 12.9736 6.55273 12.8278 6.69824L8.99957 10.5303L5.17137 6.8269C5.06653 6.72192 4.93887 6.65552 4.8035 6.63501C4.66811 6.6145 4.53069 6.64087 4.40746 6.71143C4.28424 6.78174 4.18037 6.89282 4.10818 7.03198C4.03598 7.1709 3.99846 7.33179 4.00005 7.49561Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<rect id="menu-2-fill" width="24.000000" height="24.000000" transform="matrix(1.83697e-16 -1 -1 -1.83697e-16 21 21)" fill="#FFFFFF" fill-opacity="0"/>
+	</g>
+</svg>
