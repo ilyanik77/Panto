@@ -1,0 +1,31 @@
+.benefit {
+	&__title {
+		margin-bottom: 20px;
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	&__text {
+		margin-bottom: 14px;
+		opacity: 0.8;
+
+		font-size: 16px;
+		line-height: 1.85;
+		text-align: left;
+	}
+
+	&__link {
+        display: inline-flex;
+        gap: 13px;
+        align-items: flex-start;
+
+		color: var(--accent);
+		font-size: 14px;
+        font-weight: 500;
+		line-height: 1.85;
+
+        &::after {
+            content: url('./../img/icons/rigth\(orange\).svg');
+        }
+	}
+}
