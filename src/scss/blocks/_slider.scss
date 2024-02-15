@@ -1,0 +1,38 @@
+.slider {
+    position: relative;
+    // display: flex;
+
+    // gap: 42px;
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0px 7.03px 19.53px 0px rgba(0, 0, 0, 0.06);
+        background: rgb(255, 255, 255);
+
+        &--prev {
+            position: absolute;
+            z-index: 1;
+            left: 0;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        &--next {
+            position: absolute;
+            z-index: 1;
+            right: 0;
+            top: 50%;
+            transform: translate(50%, -50%);
+
+        }
+    }
+
+}
+
