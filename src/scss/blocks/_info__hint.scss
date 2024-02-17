@@ -1,4 +1,11 @@
 .info__hint {
+    position: absolute;
+    top: -26px;
+    left: 16px;
+    transform: translate(-50%, -100%);
+
+
+
 	display: flex;
 	gap: 8px;
 	padding: 12px;
@@ -11,61 +18,43 @@
         width: 24px;
         height: 24px;
 
+        
         &__input {
             appearance: none;
             position: absolute;
 
-            &:checked + .radio__label:after {
-                opacity: 1;
+            &:checked + .radio__label {
+                
+                background-image: url('./../img/icons/vector.svg');
+                background-repeat: no-repeat;
+                background-position: center center;
             }
+            
+            
         }
         
         &__label {
             cursor: pointer;
+            display: block;
+            
+            width: 24px; 
+            height: 24px;
+            border: 2px solid #ccc;
+            background-color: gray;
+            border-radius: 50%;
 
-            &:before {
-                content: '';
-                display: block; 
-                width: 24px; 
-                height: 24px;
-                border: 1px solid #ccc;
-                border-radius: 50%; 
-                position: absolute; 
-                top: 0; 
-                left: 0; 
-                z-index: 1; 
-                transition: border 0.1s linear; 
-            }
-
-            &:after {
-                content: '';
-                display: block;
-                width: 24px;
-                height: 24px;
-                border-radius: 50%;
-                opacity: 0;
-                position: absolute;
-                background-image: url('./../../img/icons/vector.svg');
-                background-repeat: no-repeat;
-                background-position: center center;
-                z-index: 2;
-                transition: opacity 0.1s linear; 
-            }
         }
 
         &--orange {
             background-color: var(--ui-orange);
-            border-radius: 50%;
         }
 
         &--biruza {
             background-color: var(--ui-biruza);
-            border-radius: 50%;
         }
 
         &--gray {
             background-color: var(--ui-gray);
-            border-radius: 50%;
         }
     }
 }
